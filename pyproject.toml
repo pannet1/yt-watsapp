@@ -1,0 +1,14 @@
+[project]
+name = "yt-watsapp"
+version = "0.1.0"
+description = "Download YouTube Shorts from liked videos and send to WhatsApp status"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = []
+
+dependencies = [
+    "yt-dlp>=2024.1.1",
+    "python-dotenv>=1.0.0",
+    "pywhatkit>=5.4.0",
+]
