@@ -1,21 +1,3 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.venv/
-venv/
+# Project-specific ignores (global gitignore covers OS/IDE/Python/common patterns)
 
-# Environment
-.env
-.env.local
-
-# Downloads
 downloads/
-
-# Data
-**/data/**
-
-# IDE
-.vscode/
-.idea/
